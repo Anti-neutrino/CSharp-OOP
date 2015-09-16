@@ -103,23 +103,4 @@ namespace LinkedQueue
             return arr;
         }
     }
-
-    public class Test
-    {
-        public static void Main()
-        {
-            LinkedQueue<int> queue = new LinkedQueue<int>();
-
-            queue.Enqueue(12);
-            queue.Enqueue(123);
-            queue.Enqueue(981);
-
-            queue.Dequeue();
-
-            queue.Print();
-
-            int[] arr = queue.ToArray();
-            Console.WriteLine(arr[1]);
-        }
-    }
 }

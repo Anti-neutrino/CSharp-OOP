@@ -85,11 +85,4 @@ namespace LinkedStack
             Console.WriteLine();
         }
     }
-
-    public class Program
-    {
-        static void Main()
-        {
-        }
-    }
 }

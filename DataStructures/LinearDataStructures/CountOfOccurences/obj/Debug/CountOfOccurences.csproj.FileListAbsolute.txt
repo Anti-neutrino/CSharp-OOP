@@ -1,6 +1,0 @@
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\CountOfOccurences\bin\Debug\CountOfOccurences.exe.config
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\CountOfOccurences\bin\Debug\CountOfOccurences.exe
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\CountOfOccurences\bin\Debug\CountOfOccurences.pdb
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\CountOfOccurences\obj\Debug\CountOfOccurences.csprojResolveAssemblyReference.cache
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\CountOfOccurences\obj\Debug\CountOfOccurences.exe
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\CountOfOccurences\obj\Debug\CountOfOccurences.pdb
