@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="ListNode.cs" />
     <Compile Include="LList.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="LinkedListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

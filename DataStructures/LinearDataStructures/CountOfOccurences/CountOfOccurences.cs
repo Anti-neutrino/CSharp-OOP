@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CountOfOccurences
 {
-    class Program
+    class CountOfOccurences
     {
         static void Main()
         {

@@ -1,0 +1,5 @@
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\LinkedList\bin\Debug\LinkedList.exe.config
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\LinkedList\bin\Debug\LinkedList.exe
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\LinkedList\bin\Debug\LinkedList.pdb
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\LinkedList\obj\Debug\LinkedList.exe
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\DataStructures\LinearDataStructures\LinkedList\obj\Debug\LinkedList.pdb

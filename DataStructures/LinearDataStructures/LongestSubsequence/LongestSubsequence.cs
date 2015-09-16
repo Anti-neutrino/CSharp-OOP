@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LongestSubsequence
 {
-    class Program
+    class LongestSubsequence
     {
         static List<int> LongSubs(List<int> a)
         {
