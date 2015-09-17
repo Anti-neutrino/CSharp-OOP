@@ -49,4 +49,4 @@
 
 ### UML Diagram
 
-![UML Diagram](Resources/600px-Composite_UML_class_diagram_(fixed).svg.png)
+![UML Diagram](Resources/600px-Composite_UML_class_diagram_(fixed).svg.png "UML Diagram")
