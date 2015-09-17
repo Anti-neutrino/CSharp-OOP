@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assertions", "DefencePrograming\Assertions.csproj", "{9DF832EC-B844-4F55-958F-AAA4E6FAE555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "ExceptionHomework\Exceptions.csproj", "{7AC0CFB5-6612-4210-947D-D879F8BB045D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF832EC-B844-4F55-958F-AAA4E6FAE555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF832EC-B844-4F55-958F-AAA4E6FAE555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF832EC-B844-4F55-958F-AAA4E6FAE555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF832EC-B844-4F55-958F-AAA4E6FAE555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC0CFB5-6612-4210-947D-D879F8BB045D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC0CFB5-6612-4210-947D-D879F8BB045D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC0CFB5-6612-4210-947D-D879F8BB045D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC0CFB5-6612-4210-947D-D879F8BB045D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
