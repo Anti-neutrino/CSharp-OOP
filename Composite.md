@@ -48,4 +48,4 @@
 
 
 ### UML Diagram
-![UMLDiagram](https://github.com/Anti-neutrino/CSharpProjects/blob/master/Resources/600px-Composite_UML_class_diagram_(fixed).svg.png)
+![UMLDiagram](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Composite_UML_class_diagram_%28fixed%29.svg/960px-Composite_UML_class_diagram_%28fixed%29.svg.png)
