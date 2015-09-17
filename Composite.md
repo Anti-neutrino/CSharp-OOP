@@ -48,4 +48,4 @@
 
 
 ### UML Diagram
-[UML Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Composite_UML_class_diagram_%28fixed%29.svg/960px-Composite_UML_class_diagram_%28fixed%29.svg.png)
+![UML Diagram](http://img09.deviantart.net/3496/i/2012/303/b/c/cska_sofia_football_team_wallpaper_by_haxb0x-d5jf2js.png)
