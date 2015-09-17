@@ -16,7 +16,7 @@
 
 ### Пример
 
-```
+
     abstract class MailReceiver 
     {
         public abstract void SendMail();
