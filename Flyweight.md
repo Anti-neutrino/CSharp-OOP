@@ -95,7 +95,7 @@
         }
     }
     
-     public static class Program
+    public static class Program
     {
         public static void Main()
         {
@@ -106,15 +106,13 @@
 
         private static void FlyweightDemo()
         {
-            // Build a document with text
+            
             const string Document = "AAABBBAB";
 
             var characterFactory = new CharacterFactory();
 
-            // extrinsic state
             var pointSize = 10;
 
-            // For each character use a flyweight object
             foreach (var c in Document)
             {
                 pointSize++;
