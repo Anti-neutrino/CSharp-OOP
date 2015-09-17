@@ -17,9 +17,9 @@ namespace School2.Test
 
                 PMG = new School("PMG", new List<Course>() 
                 {new Course("Computer Science", new List<Student>()
-                {new Student("Veneta Todorova", 81207),
+                {new Student("Selim Kerkar", 81207),
                 new Student("Momchil Yordanov",81175),
-                new Student("Nezife Yuseinova",81654)}),
+                new Student("Feridore Dore",81654)}),
                 new Course("Software engeneering",new List<Student>()
                 {new Student("Gadimo Beichev",81176),
                 new Student("Vektor Vrabchev",86234),
