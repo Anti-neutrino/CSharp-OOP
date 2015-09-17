@@ -49,4 +49,4 @@
 
 ### UML Diagram
 
-![UML Diagram](http://img09.deviantart.net/3496/i/2012/303/b/c/cska_sofia_football_team_wallpaper_by_haxb0x-d5jf2js.png?raw=true)
+![Image](http://img09.deviantart.net/3496/i/2012/303/b/c/cska_sofia_football_team_wallpaper_by_haxb0x-d5jf2js.png?raw=true)
