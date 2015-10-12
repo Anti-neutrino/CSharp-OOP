@@ -9,10 +9,9 @@
            Cpu cpu,
            Ram ram,
            IEnumerable<HardDrive> hardDrives,
-           VideoCard videoCard)
+           MonochromeVideoCard videoCard)
             : base(cpu, ram, hardDrives, videoCard)
-        {
-            this.VideoCard.IsMonochrome = true;
+        {   
         }
 
         public void Process(int data)
