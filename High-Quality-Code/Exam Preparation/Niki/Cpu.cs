@@ -6,10 +6,10 @@
     {   
         private static readonly Random Random = new Random();
         private readonly byte numberOfBits;
-        private readonly Rammstein ram;
-        private readonly HardDriver videoCard;
+        private readonly Ram ram;
+        private readonly VideoCard videoCard;
 
-        internal Cpu(byte numberOfCores, byte numberOfBits, Rammstein ram, HardDriver videoCard)
+        internal Cpu(byte numberOfCores, byte numberOfBits, Ram ram, VideoCard videoCard)
         {
             this.numberOfBits = numberOfBits;
             this.ram = ram;
