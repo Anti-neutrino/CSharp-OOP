@@ -6,6 +6,6 @@
 
         Laptop CreateLaptop();
 
-        Server CreatServer();
+        Server CreateServer();
     }
 }

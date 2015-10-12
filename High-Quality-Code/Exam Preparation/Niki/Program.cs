@@ -27,6 +27,10 @@
             {
                 computerFactory = new DellComputersFactory();
             }
+            else if (manufacturer == "Lenovo")
+            {
+                computerFactory = new LenovoComputersFactory();
+            }
             else
             {
                 throw new InvalidArgumentException("Invalid manufacturer!");
@@ -34,7 +38,7 @@
 
             pc = computerFactory.CreatePersonalComputer();
             laptop = computerFactory.CreateLaptop();
-            server = computerFactory.CreatServer();
+            server = computerFactory.CreateServer();
         }
 
         private static void ProccessCommand()

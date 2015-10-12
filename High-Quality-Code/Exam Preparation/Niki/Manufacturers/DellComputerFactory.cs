@@ -28,7 +28,7 @@
             return laptop;
         }
 
-        public Server CreatServer()
+        public Server CreateServer()
         {
             var ram1 = new Ram(64);
             var card = new VideoCard();
