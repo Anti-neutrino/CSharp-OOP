@@ -12,7 +12,7 @@ Design pattern: Abstract factory
 	which creates deference type of  computers.
 
 Design pattern: Composite
-	* 
+	* SinglehardDrive and RaidArray ar both hardDrive and RaidArray contains other SinglehardDrive
 
 Design pattern: Mediator
 	* 
