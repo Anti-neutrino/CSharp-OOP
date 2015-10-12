@@ -23,7 +23,7 @@ Found bottlenecks:
 
 Found bugs:
 	* When invalid command was given, the program does not output "Invalid command".
-	* 
+	* When process is executed null reference exception was thrown.
 	* 
 
 Single responsibility principle

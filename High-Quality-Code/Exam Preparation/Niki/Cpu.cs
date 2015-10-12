@@ -14,6 +14,7 @@
             this.numberOfBits = numberOfBits;
             this.ram = ram;
             this.NumberOfCores = numberOfCores;
+            this.videoCard = videoCard;
         }
 
         public byte NumberOfCores { get; set; }
