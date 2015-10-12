@@ -1,0 +1,5 @@
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Logic\bin\Debug\Computers.Logic.dll
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Logic\bin\Debug\Computers.Logic.pdb
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Logic\obj\Debug\Computers.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Logic\obj\Debug\Computers.Logic.dll
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Logic\obj\Debug\Computers.Logic.pdb
