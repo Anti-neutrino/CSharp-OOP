@@ -9,7 +9,7 @@
         {
             var ram = new Ram(2);
             var videoCard = new VideoCard() { IsMonochrome = false };
-            var pc = new PersonalComputer(new Cpu(2, 32, ram, videoCard), ram, new[] { new HardDrive(500, false, 0) }, videoCard);
+            var pc = new PersonalComputer(new Cpu32(2, ram, videoCard), ram, new[] { new HardDrive(500, false, 0) }, videoCard);
 
             return pc;
         }
@@ -19,7 +19,7 @@
             var videoCard = new VideoCard() { IsMonochrome = false };
             var ram = new Ram(4);
             var laptop = new Laptop(
-                new Cpu(2, 64, ram, videoCard),
+                new Cpu64(2, ram, videoCard),
                 ram,
                 new[] { new HardDrive(500, false, 0) },
                 videoCard,
@@ -33,7 +33,7 @@
             var ram = new Ram(32);
             var videoCard = new VideoCard();
             var server = new Server(
-                new Cpu(4, 32, ram, videoCard),
+                new Cpu32(4, ram, videoCard),
                 ram,
                 new List<HardDrive>
                     {

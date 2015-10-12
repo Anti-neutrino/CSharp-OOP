@@ -44,7 +44,7 @@
     <Compile Include="ComputerTypes\Laptop.cs" />
     <Compile Include="ComputerTypes\PersonalComputer.cs" />
     <Compile Include="ComputerTypes\Server.cs" />
-    <Compile Include="Cpu.cs" />
+    <Compile Include="Cpus\Cpu.cs" />
     <Compile Include="HardDrive.cs" />
     <Compile Include="IMotherBoard.cs" />
     <Compile Include="InvalidArgumentException.cs" />
