@@ -12,7 +12,7 @@
             var pc = new PersonalComputer(
                 new Cpu64(2, ram, videoCard),
                 ram,
-                new[] { new HardDrive(2000, false, 0) },
+                new[] { new SingleHardDrive(2000) },
                 videoCard);
 
             return pc;
@@ -26,7 +26,7 @@
             var laptop = new Laptop(
                 new Cpu64(2, ram, videoCard),
                 ram,
-                new[] { new HardDrive(1000, false, 0) },
+                new[] { new SingleHardDrive(1000) },
                 videoCard,
                 battery);
 
@@ -42,7 +42,7 @@
                 ram,
                 new List<HardDrive>
                     {
-                            new HardDrive(0, true, 2, new List<HardDrive> { new HardDrive(500, false, 0), new HardDrive(500, false, 0) })
+                            new RaidArray(new List<SingleHardDrive> { new SingleHardDrive(500), new SingleHardDrive(500) })
                     },
                 videoCard);
 

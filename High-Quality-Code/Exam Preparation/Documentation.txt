@@ -5,7 +5,7 @@ Design pattern: Strategy
 	* 
 
 Design pattern: Template Method
-	* 
+	* Cpu has method SquareNumber() with abstract method GetMaxValue which implemented in Cpu32,Cpu64,Cpu128
 
 Design pattern: Abstract factory
 	* Introduce IComputerFactory as a base class for HPComputerFactory and DellComputerFactory
