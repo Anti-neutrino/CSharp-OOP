@@ -5,9 +5,10 @@
 
     public class Laptop : Computer
     {
-        private readonly LaptopBattery battery;
+        private const string BatteryStatusStringFormat = "Battery status: {0}";
+        private readonly LaptopBattery battery;  
 
-        internal Laptop(
+        public Laptop(
            Cpu cpu,
            Ram ram,
            IEnumerable<HardDrive> hardDrives,
@@ -22,7 +23,7 @@
         {
             this.battery.Charge(percentage);
 
-            this.VideoCard.Draw(string.Format("Battery status: {0}", this.battery.Percentage));
+            this.VideoCard.Draw(string.Format(BatteryStatusStringFormat, this.battery.Percentage));
         }
     }
 }

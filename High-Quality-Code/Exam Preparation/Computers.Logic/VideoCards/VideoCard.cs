@@ -4,11 +4,11 @@
 
     public abstract class VideoCard
     {
-        public void Draw(string a)
+        public void Draw(string result)
         {
             var color = this.GetColor();   
             Console.ForegroundColor = ConsoleColor.Green;    
-            Console.WriteLine(a);
+            Console.WriteLine(result);
             Console.ResetColor();
         }
 

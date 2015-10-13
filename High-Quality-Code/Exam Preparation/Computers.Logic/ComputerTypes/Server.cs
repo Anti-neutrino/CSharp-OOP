@@ -17,8 +17,6 @@
         public void Process(int data)
         {
             this.Ram.SaveValue(data);
-
-            // TODO: Fix it
             this.Cpu.SquareNumber();
         }
     }

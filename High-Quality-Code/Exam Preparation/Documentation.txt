@@ -2,7 +2,7 @@ Design pattern: Simple Factory
 	* In class Program method CreateComputers is Simple Factory.
 
 Design pattern: Strategy
-	* 
+	* Choice of Motherboard is Strategy pattern
 
 Design pattern: Template Method
 	* Cpu has method SquareNumber() with abstract method GetMaxValue which implemented in Cpu32,Cpu64,Cpu128
@@ -12,13 +12,13 @@ Design pattern: Abstract factory
 	which creates deference type of  computers.
 
 Design pattern: Composite
-	* SinglehardDrive and RaidArray ar both hardDrive and RaidArray contains other SinglehardDrive
+	* SinglehardDrive and RaidArray are both hardDrive and RaidArray contains other SinglehardDrive
 
 Design pattern: Mediator
 	* Motherboard is mediator for all computer components.
 
 Found bottlenecks:
-	* 
+	* In Cpu.Rand() use unnecessary do-while loop.
 	* 
 
 Found bugs:

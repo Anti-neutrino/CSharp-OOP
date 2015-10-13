@@ -2,24 +2,27 @@
 {
     public class LaptopBattery
     {
+        private const int UpperPercentageValue = 100;
+        private const int BottomPercentageValue = 0;
+
         public LaptopBattery()
         { 
-            this.Percentage = 100 / 2;
+            this.Percentage = UpperPercentageValue / 2;
         } 
 
         public int Percentage { get; set; }
 
-        public void Charge(int p)
+        public void Charge(int points)
         {
-            this.Percentage += p;
-            if (this.Percentage > 100)
+            this.Percentage += points;
+            if (this.Percentage > UpperPercentageValue)
             {
-                this.Percentage = 100;
+                this.Percentage = UpperPercentageValue;
             }
 
-            if (this.Percentage < 0)
+            if (this.Percentage < BottomPercentageValue)
             {
-                this.Percentage = 0;
+                this.Percentage = BottomPercentageValue;
             }
         }
     }
