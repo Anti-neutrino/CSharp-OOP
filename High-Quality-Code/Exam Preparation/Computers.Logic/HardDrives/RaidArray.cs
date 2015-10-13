@@ -7,7 +7,6 @@
     public class RaidArray : HardDrive
     {
         private List<SingleHardDrive> hardDrives;
-        private int hardDrivesInRaid;
 
         public RaidArray(List<SingleHardDrive> hardDrives)
         {

@@ -1,6 +1,6 @@
 ﻿namespace Computers.Logic
 {
-    public interface IMotherboard 
+    public interface IMotherBoard 
     { 
         /// <summary>
         /// Load value from the RAM

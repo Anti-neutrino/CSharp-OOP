@@ -4,7 +4,9 @@
     using System.Collections.Generic;
 
     public abstract class Computer
-    {    
+    {
+        private MotherBoard motherBoard;
+
         internal Computer(
             Cpu cpu,
             Ram ram,
@@ -15,6 +17,7 @@
             this.Ram = ram;
             this.HardDrives = hardDrives;
             this.VideoCard = videoCard;
+            this.motherBoard = new MotherBoard(this.Cpu, this.Ram, this.VideoCard);
         }
 
         protected Cpu Cpu { get; set; }

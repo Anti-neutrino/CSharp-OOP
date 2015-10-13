@@ -2,31 +2,30 @@
 {
     using System;
 
-    public abstract class Cpu
-    {   
+    public abstract class Cpu : IMotherBoardComponent
+    {
         private static readonly Random Random = new Random();
         private readonly Ram ram;
         private readonly VideoCard videoCard;
+        private IMotherBoard motherBoard;
 
-        internal Cpu(byte numberOfCores, Ram ram, VideoCard videoCard)
+        internal Cpu(byte numberOfCores)
         {
-            this.ram = ram;
             this.NumberOfCores = numberOfCores;
-            this.videoCard = videoCard;
         }
 
         public byte NumberOfCores { get; set; }
 
         public void SquareNumber()
         {
-            var data = this.ram.LoadValue();
+            var data = this.motherBoard.LoadRamValue();
             if (data < 0)
             {
-                this.videoCard.Draw("Number too low.");
+                this.motherBoard.DrawOnVideoCard("Number too low.");
             }
             else if (data > this.GetMaxValue())
             {
-                this.videoCard.Draw("Number too high.");
+                this.motherBoard.DrawOnVideoCard("Number too high.");
             }
             else
             {
@@ -36,7 +35,7 @@
                     value += data;
                 }
 
-                this.videoCard.Draw(string.Format("Square of {0} is {1}.", data, value));
+                this.motherBoard.DrawOnVideoCard(string.Format("Square of {0} is {1}.", data, value));
             }
         }
 
@@ -49,9 +48,14 @@
             }
             while (!(randomNumber >= a && randomNumber <= b));
 
-            this.ram.SaveValue(randomNumber);
-        } 
-        
+            this.motherBoard.SaveRamValue(randomNumber);
+        }
+
         protected abstract int GetMaxValue();
+
+        public void AttachTo(IMotherBoard motherBoard)
+        {
+            this.motherBoard = motherBoard;
+        }
     }
 }

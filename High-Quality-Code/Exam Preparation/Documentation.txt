@@ -15,7 +15,7 @@ Design pattern: Composite
 	* SinglehardDrive and RaidArray ar both hardDrive and RaidArray contains other SinglehardDrive
 
 Design pattern: Mediator
-	* 
+	* Motherboard is mediator for all computer components.
 
 Found bottlenecks:
 	* 
