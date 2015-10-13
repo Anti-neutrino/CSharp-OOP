@@ -37,7 +37,7 @@ Liskov substitution principle
 	* We can replace Dell manufacturer with HP manufacturer easily.
 
 Interface segregation principle
-	* All interfaces are small and consistant.
+	* All interfaces are small and consistent.
 
 Dependency inversion principle
-	* 
+	* In CPU we take IMotherBoard
