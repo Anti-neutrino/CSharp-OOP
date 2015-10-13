@@ -1,8 +1,8 @@
 ﻿namespace Computers.Tests
 {
     using System;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Computers.Logic;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
 
     [TestClass]
@@ -27,7 +27,7 @@
             motherBoardMock.Setup(x => x.LoadRamValue()).Returns(-1);
             cpu.AttachTo(motherBoardMock.Object);
             cpu.SquareNumber();
-            motherBoardMock.Verify(x =>x.DrawOnVideoCard(It.Is<string>(param=>param==Cpu.NumberToLow)));
+            motherBoardMock.Verify(x => x.DrawOnVideoCard(It.Is<string>(param => param == Cpu.NumberToLow)));
         }
 
         [TestMethod]

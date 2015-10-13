@@ -19,24 +19,25 @@ Design pattern: Mediator
 
 Found bottlenecks:
 	* In Cpu.Rand() use unnecessary do-while loop.
-	* 
+	* SquareNumber() use for-loop for pow(x,2)
 
 Found bugs:
 	* When invalid command was given, the program does not output "Invalid command".
 	* When process is executed null reference exception was thrown.
-	* 
+	* In Laptop charge '%' is missing.
 
 Single responsibility principle
-	* 
+	* We separate Dell , HP ,Lenovo in single classes.
+	*Laptop, server and pc are also serarated.
 
 Open/closed principle
-	* 
+	* We can add new manufacturer easily with IComputerFactory interface.
 
 Liskov substitution principle
-	* 
+	* We can replace Dell manufacturer with HP manufacturer easily.
 
 Interface segregation principle
-	* 
+	* All interfaces are small and consistant.
 
 Dependency inversion principle
 	* 

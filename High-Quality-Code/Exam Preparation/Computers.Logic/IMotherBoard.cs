@@ -1,5 +1,8 @@
 ﻿namespace Computers.Logic
 {
+    /// <summary>
+    /// Represent motherboard functionality.
+    /// </summary>
     public interface IMotherBoard 
     { 
         /// <summary>

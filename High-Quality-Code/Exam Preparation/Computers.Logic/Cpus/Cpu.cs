@@ -45,7 +45,7 @@
             this.motherBoard = motherBoard;
         }
 
-        internal void Rand(int minValue, int maxValue)
+        public void Rand(int minValue, int maxValue)
         {
             int randomNumber = Random.Next(minValue, maxValue + 1);
             this.motherBoard.SaveRamValue(randomNumber);
