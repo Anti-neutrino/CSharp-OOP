@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -52,12 +55,16 @@
   <ItemGroup>
     <Compile Include="LaptopBatteruChargeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquareNumber.Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Computers.Logic\Computers.Logic.csproj">
       <Project>{eb3a533f-7960-44ae-a8bd-d1e8896cf12a}</Project>
       <Name>Computers.Logic</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

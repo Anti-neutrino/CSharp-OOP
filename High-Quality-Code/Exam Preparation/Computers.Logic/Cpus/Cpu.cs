@@ -4,8 +4,8 @@
 
     public abstract class Cpu : IMotherBoardComponent
     {
-        private const string NumberToHigh = "Number too high.";
-        private const string NumberToLow = "Number too low.";
+       public const string NumberToHigh = "Number too high.";
+        public const string NumberToLow = "Number too low.";
         private const string SquareInfo = "Square of {0} is {1}.";
         private static readonly Random Random = new Random();
         private IMotherBoard motherBoard;
@@ -45,9 +45,9 @@
             this.motherBoard = motherBoard;
         }
 
-        internal void Rand(int a, int b)
+        internal void Rand(int minValue, int maxValue)
         {
-            int randomNumber = Random.Next(a, b + 1);
+            int randomNumber = Random.Next(minValue, maxValue + 1);
             this.motherBoard.SaveRamValue(randomNumber);
         }
         

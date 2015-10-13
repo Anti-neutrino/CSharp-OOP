@@ -5,3 +5,5 @@ C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation
 C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Tests\obj\Debug\Computers.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Tests\obj\Debug\Computers.Tests.dll
 C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Tests\obj\Debug\Computers.Tests.pdb
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Tests\bin\Debug\Moq.dll
+C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Computers.Tests\bin\Debug\Moq.xml
