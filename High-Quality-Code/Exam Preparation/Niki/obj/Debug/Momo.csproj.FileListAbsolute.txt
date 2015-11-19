@@ -1,6 +1,0 @@
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Niki\obj\Debug\Momo.csprojResolveAssemblyReference.cache
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Niki\bin\Debug\Computers.UI.Console.exe.config
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Niki\bin\Debug\Computers.UI.Console.exe
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Niki\bin\Debug\Computers.UI.Console.pdb
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Niki\obj\Debug\Computers.UI.Console.exe
-C:\Users\Anti-Neutrino\Desktop\CSharpProjects\High-Quality-Code\Exam Preparation\Niki\obj\Debug\Computers.UI.Console.pdb
